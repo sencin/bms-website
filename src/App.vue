@@ -119,7 +119,7 @@ const error = ref<boolean>(false)
 // Fetch the JSON file from the public folder when the page loads
 const fetchLocalConfig = async (): Promise<void> => {
   try {
-    const response = await fetch('/version.json')
+    const response = await fetch(`${import.meta.env.BASE_URL}version.json`)
     if (!response.ok) throw new Error('Failed to fetch local configuration')
 
     const data: LocalVersionData = await response.json()
