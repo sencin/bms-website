@@ -78,13 +78,32 @@
         </div>
 
         <div class="flex justify-center lg:col-span-5 w-full mt-6 lg:mt-0">
-          <div class="relative w-full max-w-[280px] sm:max-w-[320px] overflow-hidden rounded-2xl shadow-2xl ring-1 ring-slate-900/10 dark:ring-white/10 transition-shadow bg-slate-200 dark:bg-slate-800">
-            <img 
-              src="/imagev2.jpg" 
-              alt="App Interface" 
-              class="w-full h-auto object-cover select-none pointer-events-none"
-            />
+          
+          <div class="relative w-[280px] h-[580px] sm:w-[320px] sm:h-[640px] rounded-[2.5rem] bg-slate-900 border-[6px] sm:border-[8px] border-slate-900 shadow-2xl ring-1 ring-black/20 dark:ring-white/10 transition-transform duration-500 hover:-translate-y-2">
+            
+            <div class="absolute -right-[10px] sm:-right-[12px] top-32 h-14 w-[4px] rounded-r-md bg-slate-800"></div> <div class="absolute -left-[10px] sm:-left-[12px] top-24 h-10 w-[4px] rounded-l-md bg-slate-800"></div> <div class="absolute -left-[10px] sm:-left-[12px] top-36 h-10 w-[4px] rounded-l-md bg-slate-800"></div> <div class="relative flex w-full h-full overflow-x-auto overflow-y-hidden snap-x snap-mandatory rounded-[2rem] bg-slate-100 dark:bg-slate-950 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+              
+              <img 
+                src="/imagev2.jpg" 
+                alt="App Interface Screen 1" 
+                class="w-full h-full shrink-0 snap-center object-cover select-none pointer-events-none"
+              />
+              
+              <img 
+                src="/imagev2.jpg" 
+                alt="App Interface Screen 2" 
+                class="w-full h-full shrink-0 snap-center object-cover select-none pointer-events-none"
+              />
+
+              <img 
+                src="/imagev2.jpg" 
+                alt="App Interface Screen 3" 
+                class="w-full h-full shrink-0 snap-center object-cover select-none pointer-events-none"
+              />
+
+            </div>
           </div>
+
         </div>
       </main>
 
@@ -98,6 +117,7 @@
     </div>
   </div>
 </template>
+
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 
