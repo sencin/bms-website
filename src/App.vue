@@ -34,19 +34,19 @@
         </div>
       </header>
 
-      <main class="grid grid-cols-1 gap-16 py-12 lg:grid-cols-12 lg:items-center lg:py-20">
+      <main class="grid grid-cols-1 gap-12 py-12 lg:grid-cols-12 lg:items-center lg:gap-16 lg:py-20">
         
         <div class="space-y-8 lg:col-span-7">
-          <div class="space-y-4">
+          <div class="space-y-4 text-center sm:text-left">
             <h2 class="text-4xl font-extrabold tracking-tight text-slate-900 dark:text-white sm:text-5xl lg:max-w-xl">
               Secure attendance tracking. <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400">Simplified.</span>
             </h2>
-            <p class="text-lg leading-relaxed text-slate-600 dark:text-slate-300 lg:max-w-lg">
+            <p class="text-lg leading-relaxed text-slate-600 dark:text-slate-300 lg:max-w-lg mx-auto sm:mx-0">
               Empower your workspace with secure on-device biometric check-ins, custom access profile registrations, and real-time backend verification.
             </p>
           </div>
 
-          <div class="inline-flex flex-col items-start gap-3 w-full sm:w-auto min-h-[80px]">
+          <div class="flex flex-col items-center sm:items-start gap-3 w-full sm:w-auto min-h-[80px]">
             
             <div v-if="isLoading" class="flex items-center gap-3 text-slate-500 dark:text-slate-400 font-medium text-sm mt-3">
               <svg class="animate-spin h-5 w-5 text-blue-600 dark:text-blue-400" fill="none" viewBox="0 0 24 24">
@@ -70,31 +70,27 @@
                 </svg>
                 Download Official APK
               </a>
-              <p class="text-xs text-slate-400 dark:text-slate-500 font-mono max-w-[280px] sm:max-w-sm truncate text-center sm:text-left">
+              <p class="text-xs text-slate-400 dark:text-slate-500 font-mono max-w-[280px] sm:max-w-sm truncate text-center sm:text-left mx-auto sm:mx-0">
                 File: {{ fileName }}
               </p>
             </div>
           </div>
         </div>
 
-        <div class="hidden lg:col-span-5 lg:flex lg:justify-center">
-          <div class="relative w-[280px] h-[560px] rounded-[40px] bg-slate-900 p-3 shadow-2xl ring-1 ring-slate-900/10 dark:ring-white/10 transition-shadow">
-            <div class="absolute top-5 left-1/2 h-4 w-24 -translate-x-1/2 rounded-full bg-slate-950 z-20"></div>
-            
-            <div class="relative h-full w-full overflow-hidden rounded-[32px] bg-slate-800">
-              <img 
-                src="/imagev2.jpg" 
-                alt="App Interface" 
-                class="h-full w-full object-cover select-none pointer-events-none"
-              />
-            </div>
+        <div class="flex justify-center lg:col-span-5 w-full mt-6 lg:mt-0">
+          <div class="relative w-full max-w-[280px] sm:max-w-[320px] overflow-hidden rounded-2xl shadow-2xl ring-1 ring-slate-900/10 dark:ring-white/10 transition-shadow bg-slate-200 dark:bg-slate-800">
+            <img 
+              src="/imagev2.jpg" 
+              alt="App Interface" 
+              class="w-full h-auto object-cover select-none pointer-events-none"
+            />
           </div>
         </div>
       </main>
 
-      <footer class="flex flex-col gap-4 border-t border-slate-200/60 dark:border-slate-800/60 pt-8 sm:flex-row sm:items-center sm:justify-between text-xs text-slate-400 dark:text-slate-500 tracking-wide font-medium transition-colors">
+      <footer class="flex flex-col gap-4 border-t border-slate-200/60 dark:border-slate-800/60 pt-8 sm:flex-row sm:items-center sm:justify-between text-xs text-slate-400 dark:text-slate-500 tracking-wide font-medium transition-colors text-center sm:text-left">
         <span>&copy; {{ new Date().getFullYear() }} BMS Technology Infrastructure.</span>
-        <div class="flex gap-6">
+        <div class="flex justify-center sm:justify-start gap-6">
           <span class="hover:text-slate-600 dark:hover:text-slate-300 transition-colors">Enterprise Verified</span>
           <span class="hover:text-slate-600 dark:hover:text-slate-300 transition-colors">Android Build</span>
         </div>
