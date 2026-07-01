@@ -84,19 +84,19 @@
             <div class="absolute -right-[10px] sm:-right-[12px] top-32 h-14 w-[4px] rounded-r-md bg-slate-800"></div> <div class="absolute -left-[10px] sm:-left-[12px] top-24 h-10 w-[4px] rounded-l-md bg-slate-800"></div> <div class="absolute -left-[10px] sm:-left-[12px] top-36 h-10 w-[4px] rounded-l-md bg-slate-800"></div> <div class="relative flex w-full h-full overflow-x-auto overflow-y-hidden snap-x snap-mandatory rounded-[2rem] bg-slate-100 dark:bg-slate-950 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
               
               <img 
-                src="/imagev2.jpg" 
+                src="/01.jpg" 
                 alt="App Interface Screen 1" 
                 class="w-full h-full shrink-0 snap-center object-cover select-none pointer-events-none"
               />
               
               <img 
-                src="/imagev2.jpg" 
+                src="/02.jpg" 
                 alt="App Interface Screen 2" 
                 class="w-full h-full shrink-0 snap-center object-cover select-none pointer-events-none"
               />
 
               <img 
-                src="/imagev2.jpg" 
+                src="/03.jpg" 
                 alt="App Interface Screen 3" 
                 class="w-full h-full shrink-0 snap-center object-cover select-none pointer-events-none"
               />
