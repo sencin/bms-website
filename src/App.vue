@@ -90,13 +90,13 @@
               />
               
               <img 
-                src="/02.jpg" 
+                src="/02.png" 
                 alt="App Interface Screen 2" 
                 class="w-full h-full shrink-0 snap-center object-cover select-none pointer-events-none"
               />
 
               <img 
-                src="/03.jpg" 
+                src="/03.png" 
                 alt="App Interface Screen 3" 
                 class="w-full h-full shrink-0 snap-center object-cover select-none pointer-events-none"
               />
