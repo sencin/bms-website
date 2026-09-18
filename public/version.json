@@ -1,4 +1,5 @@
 {
   "latest_version": "1.0.51",
-  "download_url": "https://github.com/sencin/bms-website/releases/download/v1.0.51/app-arm64-v8a-release.apk"
+  "apk_download_url": "https://github.com/sencin/bms-website/releases/download/v1.0.51/app-arm64-v8a-release.apk",
+  "ipa_download_url": "https://github.com/sencin/bms-website/releases/download/v1.0.51/projectx-tios-user-unsigned.ipa"
 }
