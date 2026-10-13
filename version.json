@@ -4,6 +4,29 @@
   "ipa_download_url": "https://github.com/sencin/bms-website/releases/download/v1.0.56/projectx-tios-user-unsigned.ipa",
   "force_update": false,
   "version_history": [
+     //   {
+//      "version": "1.0.57",
+//      "date": "2026-10-15",
+ //     "notes": [
+   //     "Categorized notifications into structured System, Attendance, Leaves, and Assignments tabs",
+    //      "Set System notifications as the primary default tab on the Notifications screen",
+     //     "Added notification status filter options (View All, View Unread, View Read)",
+      //    "Mapped 13 distinct backend notification types to clean, category-specific visual icons",
+       //   "Implemented optimistic state updates and bulk 'Mark All as Read' API integration for notifications",
+       //   "Integrated interactive OpenStreetMap widget with zoom in, zoom out, and recenter action controls",
+        //  "Displayed custom text badge labels on map markers for assigned sites and user punch logs",
+        //  "Enhanced Cloudflare R2 network image preview requests with secure User-Agent headers",
+        //  "Sanitized image loading error fallbacks to display 'Status 404' without exposing raw asset links",
+         // "Upgraded image preview modal dialog with pinch-to-zoom and full-screen pan inspection",
+         // "Rebranded login screen title to TIOS featuring the official assets brand icon",
+         // "Displayed dynamic application version text directly adjacent to the TIOS logo on login",
+         // "Integrated Cloudflare Turnstile CAPTCHA verification widget into the authentication flow",
+         // "Enforced administrative account restrictions to block unauthorized admin mobile logins",
+         // "Added device override warning screens for secure multi-phone account management",
+         // "Integrated multi-factor authentication (TOTP) and email verification routing on login",
+         // "Implemented reliable semantic version (SemVer) comparison parsing for update detection"
+  //    ]
+ //   },
     {
       "version": "1.0.56",
       "date": "2026-10-9",
