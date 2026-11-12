@@ -1,9 +1,17 @@
 {
-  "latest_version": "1.0.57",
-  "apk_download_url": "https://github.com/sencin/bms-website/releases/download/v1.0.57/app-arm64-v8a-release.apk",
-  "ipa_download_url": "https://github.com/sencin/bms-website/releases/download/v1.0.57/projectx-tios-user-unsigned.ipa",
+  "latest_version": "1.0.58",
+  "apk_download_url": "https://github.com/sencin/bms-website/releases/download/v1.0.58/app-arm64-v8a-release.apk",
+  "ipa_download_url": "https://github.com/sencin/bms-website/releases/download/v1.0.58/projectx-tios-user-unsigned.ipa",
   "force_update": false,
   "version_history": [
+     {
+      "version": "1.0.58",
+      "date": "2026-11-15",
+      "notes": [
+      "UI Improvements",
+      "Fixed upload compression for images and retained quality on localstorage",
+      ]
+    },
     {
       "version": "1.0.57",
       "date": "2026-10-15",
